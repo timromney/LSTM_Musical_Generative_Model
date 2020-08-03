@@ -12,3 +12,5 @@ The output directory contains midi sequences formatted as 'output_<memory-length
 Thhe weights directory contains snapshots of training weight .hd5f files with a short memory-length of 4, 
 medium memory-length of 16, and a long memory-length of 32 (at 1, 50, 100 epochs). Where memory length 
 corresponds to how far back the model is impacted by prior notes/chords appearing.
+
+NOTE: The midi file for Alchemy (https://www.youtube.com/watch?v=WFrF8otTROg) is 'output_16_100_1.mid' found in the output directory
